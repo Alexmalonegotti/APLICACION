@@ -16,6 +16,7 @@ body {
 	margin: 0 auto;
 	margin-top: 10px;
 	position: relative;
+	color: white;
 } 
 
 .tittle {
@@ -23,6 +24,7 @@ body {
    font-family: Lucida Console, Courier, monospace;
    color: rgb(217, 103, 29);
   text-align: center;
+  color: gold;
 }
 
 img {
@@ -110,12 +112,14 @@ img {
     font-size: 30px;
     font-family: Lucida Console, Courier, monospace;
     color: rgb(217, 103, 29);
+    color: gold;
 }
 
 .contador {
     position: absolute;
     right: -185px;
     top: 58px;
+
 }
 p.counter {
     text-align: center;
