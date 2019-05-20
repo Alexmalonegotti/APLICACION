@@ -93,12 +93,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     })
 
-  .state('tab.Juego', {
-    url: '/Juego',
+  .state('tab.memoria', {
+    url: '/memoria',
     views: {
-      'tab-Juego': {
-        templateUrl: 'templates/tab-Juego.html',
-        controller: 'JuegoCtrl'
+      'tab-memoria': {
+        templateUrl: 'templates/tab-memoria.html',
+        controller: 'memoriaCtrl'
       }
     }
   });
